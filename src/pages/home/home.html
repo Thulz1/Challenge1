@@ -1,0 +1,105 @@
+<!-- <ion-header>
+  <ion-navbar color="color1">
+    <ion-title>
+      <ion-icon name="arrow-back"> MENU</ion-icon>
+
+    </ion-title>
+  </ion-navbar>
+</ion-header> -->
+
+<ion-content class="style">
+
+  <ion-navbar color="color1">
+    <ion-title>
+      <ion-icon name="arrow-back"> MENU</ion-icon>
+    </ion-title>
+  </ion-navbar>
+
+
+  <ion-grid>
+    <ion-row>
+      <ion-col (click)="viewLink = 'home'" [class.active]="viewLink == 'home'">
+          <div class="dot" [class.active]="showActive == 'home'"></div>
+        <img src="../../assets/imgs/RUNNING.PNG" alt="running">
+        <br>
+        <label>RUNNING</label>
+      </ion-col>
+
+      <ion-col (click)="viewLink = 'home1'" [class.active]="viewLink == 'home1'">
+          <div class="dot" [class.active]="showActive == 'home1'"></div>
+        <img src="../../assets/imgs/BIKING.PNG" alt="biking">
+        <br>
+        <label>BIKING</label>
+      </ion-col>
+    </ion-row>
+    <br>
+    <ion-row>
+      <ion-col (click)="viewLink = 'home2'" [class.active]="viewLink == 'home2'">
+          <div class="dot" [class.active]="showActive == 'home2'"></div>   
+        <img src="../../assets/imgs/SWIMMING.PNG" alt="swimming">
+        <br>
+        <label>SWIMMING</label>
+      </ion-col>
+
+      <ion-col (click)="viewLink = 'home3'" [class.active]="viewLink == 'home3'">
+          <div class="dot" [class.active]="showActive == 'home3'"></div>
+        <img src="../../assets/imgs/FITNESS.PNG" alt="fitness">
+        <br>
+        <label>FITNESS</label>
+      </ion-col>
+    </ion-row>
+    <br>
+    <ion-row>
+      <ion-col (click)="viewLink = 'home4'" [class.active]="viewLink == 'home4'">
+          <div class="dot" [class.active]="showActive == 'home4'"></div>
+        <img src="../../assets/imgs/CARDIO.PNG" alt="cardio">
+        <br>
+        <label>CARDIO</label>
+      </ion-col>
+
+      <ion-col (click)="viewLink = 'home5'" [class.active]="viewLink == 'home5'">
+        <div class="dot" [class.active]="showActive == 'home5'"></div>
+        <img src="../../assets/imgs/TROPHY.PNG" alt="trophy">
+        <br>
+        <label>TROPHY</label>
+      </ion-col>
+    </ion-row>
+    <br>
+    <ion-row>
+      <ion-col (click)="viewLink = 'home6'" [class.active]="viewLink == 'home6'">
+          <div class="dot" [class.active]="showActive == 'home6'"></div>
+        <img src="../../assets/imgs/NUTRITION.PNG" alt="nutrit">
+        <br>
+        <label>NUTRITION</label>
+      </ion-col>
+
+      <ion-col (click)="viewLink = 'home7'" [class.active]="viewLink == 'home7'">
+        <div class="dot" [class.active]="showActive == 'home7'"></div>
+        <img src="../../assets/imgs/MEDICINE.PNG" alt="medicine">
+        <br>
+        <label>MEDICINE</label>
+      </ion-col>
+    </ion-row>
+    <br>
+    <ion-row>
+      <ion-col (click)="viewLink = 'home8'" [class.active]="viewLink == 'home8'">
+          <div class="dot" [class.active]="showActive == 'home8'"></div>
+        <img src="../../assets/imgs/SEARCH.PNG" alt="search">
+        <br>
+        <label>SEARCH</label>
+      </ion-col>
+
+      <ion-col (click)="viewLink = 'home9'" [class.active]="viewLink == 'home9'">
+          <div class="dot" [class.active]="showActive == 'home9'"></div>
+        <img src="../../assets/imgs/SETTINGS.PNG" alt="settings">
+        <br>
+        <label>SETTINGS</label>
+      </ion-col>
+    </ion-row>
+
+
+  </ion-grid>
+
+
+
+</ion-content>

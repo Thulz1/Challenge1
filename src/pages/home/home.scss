@@ -1,0 +1,53 @@
+page-home {
+.style{
+    // background-image: url('../../assets/imgs/bk1.jpg');
+//    background-size: cover;
+    background-color: #1a202f;
+    color: white;
+
+}
+ion-grid{
+    margin-top: 10%;
+}
+ion-icon{
+    color: rgb(97, 147, 153);
+    margin-top: 10%;
+    position: middle;
+}
+
+img{
+    height: 60%;
+    opacity: 0.4;
+}
+label{
+color: rgb(97, 147, 153);
+}
+ion-row{
+   text-align: center;
+}
+
+ion-col{
+  border: 2px hidden red;  
+width: 50px;
+  height: 100px;
+  margin-top: 10%;
+
+}
+col::selection {
+    background: #34495e;
+    color: white;
+}
+.active{
+    background-color: rgb(1, 6, 22);
+    .dot{
+        margin-left: 90%;
+        position: absolute;
+        background: rgb(0, 255, 0);
+        width: 10px;
+        height: 10px;
+        border-radius: 30px;
+     }
+ }
+
+
+}

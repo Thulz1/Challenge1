@@ -1,0 +1,7 @@
+{
+  "name": "CSSicons",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
